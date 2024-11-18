@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museos de Bogotá</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Museos de Bogotá</h1>
+        <p>
+            Explora los museos más emblemáticos de Bogotá, como el Museo del Oro y 
+            el Museo Nacional.
+        </p>
+    </header>
+
+    <main>
+        <section id="museo-oro">
+            <h2>Museo del Oro</h2>
+            <!-- Botón para mostrar/ocultar información -->
+            <button onclick="toggleInfo('museo-oro')">
+                Mostrar/Ocultar Información
+            </button>
+            <p>
+                El Museo del Oro es famoso por su colección de piezas precolombinas de 
+                oro y otros materiales.
+            </p>
+        </section>
+
+        <section id="museo-nacional">
+            <h2>Museo Nacional de Colombia</h2>
+            <button onclick="toggleInfo('museo-nacional')">
+                Mostrar/Ocultar Información
+            </button>
+            <p>
+                El Museo Nacional de Colombia es el más antiguo del país, con una gran 
+                colección de arte e historia.
+            </p>
+        </section>
+    </main>
+
+    <button onclick="toggleTheme()">Cambiar Tema</button>
+    <script src="script.js"></script>
+</body>
+</html>
